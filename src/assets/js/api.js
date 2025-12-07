@@ -1,1 +1,0 @@
-// Fonctions fetch API (météo, devises)
