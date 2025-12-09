@@ -1,1 +1,40 @@
 /* Styles globaux de la page centrale */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+}
+
+.header{
+    display: flex;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+    background-color: hsla(120, 100%, 50%, 0.5);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+}
+
+.link{
+    margin-inline-end: 25px;
+    list-style: none;
+}
+
+#theme-toggle{
+    background: none;
+    border: none;
+    font-size: 1rem;
+    align-self: center;
+    justify-self: flex-end;
+}
