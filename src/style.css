@@ -114,8 +114,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding-top: 25px;
-    margin-bottom: 80px;
     background-color: azure;
 }
 
@@ -178,4 +178,50 @@ body{
 
 bold{
     font-weight: 600;
+}
+
+.projects-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+    padding-top: 25px;
+}
+
+.projects-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 15px;
+    gap: 5px;
+    font-size: 2.5rem;
+}
+
+.projects-description{
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    margin-top: -10px;
+    margin-bottom: 40px;
+    line-height: 2;
+}
+
+.projects-display-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#projects-display{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    border-radius: 10px;
+    height: 700px;
+    width: 90vw; 
 }
