@@ -94,7 +94,7 @@ body{
     line-height: 2;
 }
 
-#openProjects{
+#openProjects, #openProjects-Projects{
     background-color: hsla(165, 85%, 40%, 0.7);
     border: none;
     border-radius: 20px;
