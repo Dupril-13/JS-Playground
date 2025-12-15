@@ -10,7 +10,6 @@ body{
 .header{
     display: flex;
     padding-inline: 30px;
-
 }
 
 .header-container{
